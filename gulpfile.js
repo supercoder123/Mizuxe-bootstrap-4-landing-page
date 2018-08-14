@@ -28,13 +28,13 @@ gulp.task("js", () => {
 //watch sass and server
 gulp.task("serve", ["sass"], () => {
   browserSync.init({
-    server: "./src"
+    server: "./"
   });
   gulp.watch(
     ["node_modules/bootstrap/scss/bootstrap.scss", "src/scss/*.scss"],
     ["sass"]
   );
-  gulp.watch("src/*.html").on("change", browserSync.reload);
+  gulp.watch("index.html").on("change", browserSync.reload);
 });
 
 //move fonts folder to src/fonts
@@ -50,5 +50,4 @@ gulp.task("fa", () => {
     .src("node_modules/font-awesome/css/font-awesome.min.css")
     .pipe(gulp.dest("src/css"));
 });
-
 gulp.task("default", ["js", "serve", "fa", "fonts"]);
