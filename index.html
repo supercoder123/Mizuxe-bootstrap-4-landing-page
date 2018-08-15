@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="src/css/style.css">
 </head>
 
-<body id="home">
-    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4">
+<body id="home" data-spy="scroll" data-target="#navScroll" data-offset="1">
+    <nav id="navScroll" class="navbar navbar-expand-md navbar-light fixed-top py-4">
         <div class="container">
             <a href="index.html" class="navbar-brand">
                 <img src="src/img/mlogo.png" alt="logo" width="50" height="50">
@@ -388,6 +388,13 @@
     <script src="src/js/jquery.min.js"></script>
     <script src="src/js/bootstrap.min.js"></script>
     <script src="src/js/popper.min.js"></script>
+    <script>
+        var offsetHeight = 105;
+        $('body').scrollspy({
+            target: '#navScroll',
+            offset: offsetHeight
+        })
+    </script>
     <script src="src/js/navbar-fixed.js"></script>
 
 </body>
