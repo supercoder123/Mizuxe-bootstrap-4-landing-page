@@ -10,9 +10,7 @@ body {
     font-size: 1.4rem;
     padding-right: 20px; }
   .navbar .active {
-    color: white;
-    border: 2px solid #3292a6;
-    border-radius: 5px; }
+    color: #3292a6 !important; }
 
 #showcase {
   position: relative;
@@ -41,4 +39,8 @@ body {
   background: #3292a6;
   color: #fff; }
   #authors .card:hover .fa {
+    color: white; }
+  #authors .card:hover h5 {
+    color: white; }
+  #authors .card:hover .text-muted {
     color: white; }

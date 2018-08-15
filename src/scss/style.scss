@@ -15,9 +15,7 @@ body {
     padding-right: 20px;
   }
   .active {
-    color: white;
-    border: 2px solid $primary;
-    border-radius: 5px;
+    color: $primary !important;
   }
 }
 
@@ -54,6 +52,13 @@ body {
     color: #fff;
 
     .fa {
+      color: white;
+    }
+
+    h5 {
+      color: white;
+    }
+    .text-muted {
       color: white;
     }
   }
