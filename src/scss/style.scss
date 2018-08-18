@@ -16,7 +16,6 @@ body {
   }
   .active {
     color: $primary !important;
-  
   }
 }
 
@@ -32,6 +31,13 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+  }
+}
+
+.image-resize {
+  img {
+    max-height: 600px;
+    padding: 10px;
   }
 }
 
