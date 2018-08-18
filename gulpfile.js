@@ -50,4 +50,7 @@ gulp.task("fa", () => {
     .src("node_modules/font-awesome/css/font-awesome.min.css")
     .pipe(gulp.dest("src/css"));
 });
+
+
+
 gulp.task("default", ["js", "serve", "fa", "fonts"]);
