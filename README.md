@@ -15,13 +15,13 @@ The landing page for "The Magic of Thinking Page" book which has sold more than 
 Built using my own Bootstrap 4 boilerplate code . You can find it [here](https://github.com/supercoder123/bootstrap-4-boilerplate)
 
 ### Installation 
-Clone the repo
+Clone the repo  
 `git clone https://github.com/supercoder123/bootstrap-4-book-landing-page.git`
 
-Install dependencies
+Install dependencies  
 `npm install`
 
-Run server 
+Run server  
 `npm run start`
 
 Website will now be running at localhost:3000
