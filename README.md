@@ -8,7 +8,7 @@ The landing page for "The Magic of Thinking Page" book which has sold more than 
 - Built using Bootstrap 4
 - Used gulp for building files from source
 - ScrollSpy included 
-- Smoth Scrolling on navbar item click
+- Smooth Scrolling on navbar item click
 
 Built using my own Bootstrap 4 boilerplate code . You can find it [here](https://github.com/supercoder123/bootstrap-4-boilerplate)
 
