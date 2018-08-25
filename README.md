@@ -2,6 +2,8 @@
 
 The landing page for "The Magic of Thinking Page" book which has sold more than 6 million copies world wide.
 
+![Screenshot](magic%20of%20thinking%20big.png)
+
 ### Demo: [Click here](https://supercoder123.github.io/bootstrap-4-book-landing-page/ )   
 
 
